@@ -493,3 +493,8 @@ PRODUCT_PACKAGES += \
     BrightnessSliderShadedOverlay \
     BrightnessSliderThinOverlay \
     BrightnessSliderTranslucentOverlay
+
+# Utility Overlays
+PRODUCT_PACKAGES += \
+    HideSmartSpace \
+    SmartSpaceOffset
