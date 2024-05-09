@@ -12,7 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 # Accurate shade
 PRODUCT_PACKAGES += \
     AccurateShadeOverlayAndroid \
@@ -259,3 +258,7 @@ PRODUCT_PACKAGES += \
 # A11QSUI
 PRODUCT_PACKAGES += \
     A11QSUI
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
