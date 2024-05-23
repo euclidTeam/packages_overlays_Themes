@@ -346,7 +346,7 @@ PRODUCT_PACKAGES += \
     IconDataTwo
 
 # UDFPS Animations
-ifeq ($(TARGET_UDFPS_ANIMATIONS),true)
+ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
