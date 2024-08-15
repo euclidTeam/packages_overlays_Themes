@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
 # Fonts
 PRODUCT_PACKAGES += \
     HarmonyOS-Sans-Italic.ttf \
@@ -106,167 +102,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/pro
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/product/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-# UI styles
-PRODUCT_PACKAGES += \
-    AndroidEspressoThemeOverlay \
-    AndroidSnowPaintDropThemeOverlay \
-    AndroidVividThemeOverlay \
-    PacleggersThemeAndroidOverlay \
-    PacleggersThemeSettingsOverlay \
-    PacleggersThemeSystemUIOverlay \
-    ShishuAmalgamationThemeAndroidOverlay \
-    ShishuAmalgamationThemeSettingsOverlay \
-    ShishuAmalgamationThemeSystemUIOverlay \
-    ShishuImmensityThemeAndroidOverlay \
-    ShishuImmensityThemeSettingsOverlay \
-    ShishuImmensityThemeSystemUIOverlay \
-    ShishuNightsThemeAndroidOverlay \
-    ShishuNightsThemeSettingsOverlay \
-    ShishuNightsThemeSystemUIOverlay \
-    SolarizedThemeAndroidOverlay \
-    SolarizedThemeSettingsOverlay \
-    SolarizedThemeSystemUIOverlay
-
-# Lockscreen Clock Fonts
-PRODUCT_PACKAGES += \
-    ClockFontGoogleSansOverlay \
-    ClockFontNothingDotOverlay \
-    ClockFontAdventProOverlay \
-    ClockFontBigNoodleTiltingOverlay \
-    ClockFontCherrySwashOverlay \
-    ClockFontHeadlineOverlay \
-    ClockFontRoadRageOverlay \
-    ClockFontSnowstormOverlay \
-    ClockFontViburOverlay \
-    ClockFontAlienLeagueOverlay \
-    ClockFontBikoOverlay \
-    ClockFontGinoraSansOverlay \
-    ClockFontRivieraOverlay \
-    ClockFontUnionOverlay \
-    ClockFontVG5000Overlay \
-    ClockFont3DIsometricBlackOverlay \
-    ClockFont3DIsometricBoldOverlay \
-    ClockFontBalticBoddenOverlay \
-    ClockFontBalticCoastOverlay \
-    ClockFontBalticDuneOverlay \
-    ClockFontBalticStormOverlay \
-    ClockFontCafe24DecoshadowOverlay \
-    ClockFontFortaOverlay \
-    ClockFontMuseoModernoOverlay \
-    ClockFontMXWasgardOverlay \
-    ClockFontNeptunCATOverlay \
-    ClockFontProdeltCoOverlay \
-    ClockFontRubikGlitchOverlay \
-    ClockFontTourneyMediumOverlay \
-    ClockFontVG5000Overlay \
-    ClockFontOdibeeSansOverlay \
-    ClockFontPermanentMarkerOverlay \
-    ClockFontArcadeInterlacedOverlay \
-    ClockFontDotComOverlay \
-    ClockFontKarmaticArcadeOverlay \
-    ClockFontLiquidCrystalOverlay \
-    ClockFontV5PRFOverlay \
-    ClockFontZeroFourOverlay \
-    ClockFontSedgwickAveOverlay \
-    ClockFontUnionOverlay \
-    ClockFontAccuratistOverlay \
-    ClockFontAclonicaOverlay \
-    ClockFontAmaranteOverlay \
-    ClockFontBariolOverlay \
-    ClockFontCagliostroOverlay \
-    ClockFontCoconOverlay \
-    ClockFontComfortaaOverlay \
-    ClockFontComicSansOverlay \
-    ClockFontCoolstoryOverlay \
-    ClockFontExotwoOverlay \
-    ClockFontFifa2018Overlay \
-    ClockFontGrandHotelOverlay \
-    ClockFontHarmonySansOverlay \
-    ClockFontLatoOverlay \
-    ClockFontLGSmartGothicOverlay \
-    ClockFontLinotteOverlay \
-    ClockFontNokiaPureOverlay \
-    ClockFontNunitoOverlay \
-    ClockFontOneplusSansOverlay \
-    ClockFontOneplusSlateOverlay \
-    ClockFontOswaldOverlay \
-    ClockFontQuandoOverlay \
-    ClockFontRedressedOverlay \
-    ClockFontReemKufiOverlay \
-    ClockFontRobotoCondensedOverlay \
-    ClockFontRosemaryOverlay \
-    ClockFontRubikOverlay \
-    ClockFontSamsungOneOverlay \
-    ClockFontSonySketchOverlay \
-    ClockFontStoropiaOverlay \
-    ClockFontSurferOverlay \
-    ClockFontUbuntuOverlay \
-    ClockFontxtrusionOverlay \
-    ClockFontNeonDiscoOverlay \
-    ClockFontlovenessthreeOverlay \
-    ClockFontAlphaCloudsOverlay \
-    ClockFontAlphaFlowersOverlay \
-    ClockFontAlphaWoodOverlay \
-    ClockFontBigCheeseOverlay \
-    ClockFontBudmoJigglerOverlay \
-    ClockFontBunnyRabbitsOverlay \
-    ClockFontCFBadNewsOverlay \
-    ClockFontCFOneTwoTreesOverlay \
-    ClockFontCRACKMANOverlay \
-    ClockFontELRIOTT2Overlay \
-    ClockFontEasterBunnyOverlay \
-    ClockFontFibographyOverlay \
-    ClockFontHangedOverlay \
-    ClockFontHotSweatOverlay \
-    ClockFontKGOnlyHopeOverlay \
-    ClockFontKaramuruhOverlay \
-    ClockFontKingthingsOverlay \
-    ClockFontKlyukinOverlay \
-    ClockFontLMSCliffordOverlay \
-    ClockFontLittleBunnyOverlay \
-    ClockFontMessingLetternOverlay \
-    ClockFontneon2Overlay \
-    ClockFontPinewoodOverlay \
-    ClockFontPlaidEventOverlay \
-    ClockFontPlantsLettersOverlay \
-    ClockFontQuickSouthOverlay \
-    ClockFontREMPONKOverlay \
-    ClockFontRomantiquesOverlay \
-    ClockFontScrapItUpOverlay \
-    ClockFontSpaceGameOverlay \
-    ClockFontTH3MACHINEOverlay \
-    ClockFontVTKSDURA3dOverlay \
-    ClockFontZnikomitNo24Overlay \
-    ClockFontACFilmstripOverlay \
-    ClockFontAmpad3D2Overlay \
-    ClockFontBetsyFlanaganOverlay \
-    ClockFontCatOverlay \
-    ClockFontConcentrateOverlay \
-    ClockFontDiscoMidnightOverlay \
-    ClockFontGautsMotelUpperRightOverlay \
-    ClockFontNINJASOverlay \
-    ClockFontStandardHeaderOverlay \
-    ClockFontfrankfrtOverlay \
-    ClockFontmunsteriaOverlay \
-    ClockFontAlmonteSnowOverlay \
-    ClockFontBrandayolqOverlay \
-    ClockFontEditPointsOverlay \
-    ClockFontEditPointsFilledOverlay \
-    ClockFontFloorlightOverlay \
-    ClockFontFuturrOverlay \
-    ClockFontLowerAtmosphereOverlay \
-    ClockFontMonbijouxClownpieceOverlay \
-    ClockFontRoundheadsOverlay \
-    ClockFontNewYork-HeavyOverlay \
-    ClockFontNewYork-SemiboldOverlay \
-    ClockFontSFPro-SemiboldOverlay \
-    ClockFontSFPro-SemiboldRailsOverlay \
-    ClockFontSFPro-SemiboldRoundedOverlay \
-    ClockFontSFPro-SemiboldSoftOverlay \
-    ClockFontSFPro-SemiboldStencilOverlay \
-    ClockFontKroppenOutlineOverlay \
-    ClockFontKroppenRoundOverlay
-
 # Icon Packs
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
@@ -350,19 +185,6 @@ PRODUCT_PACKAGES += \
     IconShapeRohieMeowOverlay \
     IconShapeLeafyOverlay
 
-# Navbar Styles
-PRODUCT_PACKAGES += \
-    NavbarAndroidOverlay \
-    NavbarAsusOverlay \
-    NavbarMotoOverlay \
-    NavbarNexusOverlay \
-    NavbarOldOverlay \
-    NavbarOnePlusOverlay \
-    NavbarOneUiOverlay \
-    NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay \
-    NavbarDoraOverlay
-
 # Statusbar Icons
 PRODUCT_PACKAGES += \
     BarsSignalOverlay \
@@ -411,15 +233,6 @@ PRODUCT_PACKAGES += \
     LornDataOverlay \
     PlumpyDataOverlay
     
-# Volume Styles
-PRODUCT_PACKAGES += \
-    VolumeDoubleLayer \
-    VolumeGradient \
-    VolumeNeumorph \
-    VolumeNeumorphOutline \
-    VolumeOutline \
-    VolumeShadedLayer \
-    VolumeAOSPRevamped
 
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
@@ -430,21 +243,6 @@ PRODUCT_PACKAGES += \
     UdfpsAnimations
 endif
 endif
-
-# Brightness slider styles
-PRODUCT_PACKAGES += \
-    BrightnessSliderAcunOverlay \
-    BrightnessSliderBangOverlay \
-    BrightnessSliderCyberpunkOverlay \
-    BrightnessSliderFilledOverlay \
-    BrightnessSliderGradientRoundedBarOverlay \
-    BrightnessSliderLeafyOutlineOverlay \
-    BrightnessSliderMinimalThumbOverlay \
-    BrightnessSliderOutlineOverlay \
-    BrightnessSliderRoundedClipOverlay \
-    BrightnessSliderShadedOverlay \
-    BrightnessSliderThinOverlay \
-    BrightnessSliderTranslucentOverlay
 
 # Utility Overlays
 PRODUCT_PACKAGES += \
