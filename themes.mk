@@ -12,6 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+# Accurate shade
+PRODUCT_PACKAGES += \
+    AccurateShadeOverlayAndroid \
+    AccurateShadeOverlaySystemUI \
+    AccurateShadeOverlaySettings
+
 # Fonts
 PRODUCT_PACKAGES += \
     HarmonyOS-Sans-Italic.ttf \
